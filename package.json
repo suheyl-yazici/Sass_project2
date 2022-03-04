@@ -1,0 +1,23 @@
+{
+  "name": "sass_project2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "scss": "node-sass -w scss -o public/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suheyl-yazici/Sass_project2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/suheyl-yazici/Sass_project2/issues"
+  },
+  "homepage": "https://github.com/suheyl-yazici/Sass_project2#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
