@@ -79,3 +79,39 @@ ul {
 
 img {
   width: 100%; }
+
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem; }
+  .main-nav__logo {
+    width: 70px;
+    height: 70px; }
+  .main-nav__items {
+    display: flex; }
+    .main-nav__items li {
+      padding: 1rem 1.5rem; }
+      .main-nav__items li a {
+        text-decoration: none;
+        color: #fff;
+        text-transform: uppercase;
+        border-bottom: 3px transparent solid;
+        padding-bottom: .5rem;
+        transition: border-color .5s; }
+        .main-nav__items li a:hover {
+          border-color: #ccc; }
+        .main-nav__items li a.active {
+          border-color: #ef6d6d; }
+
+#header__home {
+  background: url("..//images/bg.jpeg") no-repeat center right/cover;
+  height: 100vh;
+  color: #fff; }
+  #header__home .header-content {
+    text-align: center;
+    padding-top: 30%; }
+  #header__home h1 {
+    font-size: 4rem;
+    line-height: 1.2; }
+  #header__home .typewrite {
+    display: block; }
