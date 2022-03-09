@@ -158,3 +158,51 @@ img {
       background-color: #f4f4f4; }
     #home__b .profile div:nth-child(even) {
       background-color: #ccc; }
+
+#home__c .process {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+  text-align: center; }
+  #home__c .process__step {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 25px;
+    background: #ef6d6d;
+    border-radius: 50%;
+    line-height: 15px;
+    padding: 1rem;
+    transition: all 1s; }
+  #home__c .process__icon {
+    position: relative;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    background: #333;
+    color: #fff;
+    padding: 2rem;
+    text-align: center; }
+    #home__c .process__icon:hover {
+      background: #ef6d6d; }
+      #home__c .process__icon:hover .process__step {
+        background-color: #333; }
+
+#main-footer {
+  background: #333;
+  color: #fff;
+  height: 5rem; }
+  #main-footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem; }
+    #main-footer .footer-content .social .fab {
+      margin-right: 1rem;
+      border: 2px solid #fff;
+      border-radius: 50%;
+      text-align: center;
+      padding: .6rem;
+      transition: all 0.6s; }
+      #main-footer .footer-content .social .fab:hover {
+        background: #ef6d6d; }
