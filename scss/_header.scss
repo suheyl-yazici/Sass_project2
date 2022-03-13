@@ -51,4 +51,10 @@
             display: block;
         }
     }
+
+    &__inner {
+        background:$dark-color no-repeat 40% 20% / cover;
+        height: 5.5rem;
+        border-bottom: 3px solid $primary-color;
+    }
 }
