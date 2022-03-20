@@ -19,6 +19,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
+    <link rel="stylesheet" href="../node_modules/owl.carousel/dist/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="./css/main.css" />
     <title>Document</title>
   </head>
@@ -61,7 +62,9 @@
             <p>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error
               cum soluta, vitae sit sint eius cumque impedit. Id, aspernatur
-              nam!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid eaque temporibus a cum similique illo dolores vitae impedit ipsam. Harum.
+              nam!Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Aliquid eaque temporibus a cum similique illo dolores vitae
+              impedit ipsam. Harum.
             </p>
           </div>
         </div>
@@ -94,6 +97,75 @@
       </div>
     </section>
 
+    <!-- section c -->
+    <section id="about-c" class="bg-light py-2">
+      <div class="container">
+        <div class="about-logos">
+          <img src="./images/joomla.png" alt="" />
+          <img src="./images/woocommerce.png" alt="" />
+          <img src="./images/wordpress.png" alt="" />
+          <img src="./images/wix.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- section d -->
+    <section id="about-d" class="py-2">
+      <div class="container">
+        <h2 class="section-title">Refeneces</h2>
+        <div class="border-bottom"></div>
+        <p class="lead text-center">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. In,
+          voluptatibus quo. Eaque quos totam optio!
+        </p>
+        <div class="references owl-carousel owl-theme">
+          <div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
+              ea, nemo blanditiis voluptas quae enim earum perferendis autem ut
+              tempora?
+            </p>
+            <ul>
+              <li><img src="./images/user-1.jpeg" alt="" /></li>
+              <li>lorem ipsim</li>
+            </ul>
+          </div>
+          <div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
+              ea, nemo blanditiis voluptas quae enim earum perferendis autem ut
+              tempora?
+            </p>
+            <ul>
+              <li><img src="./images/user-2.jpeg" alt="" /></li>
+              <li>lorem ipsim</li>
+            </ul>
+          </div>
+          <div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
+              ea, nemo blanditiis voluptas quae enim earum perferendis autem ut
+              tempora?
+            </p>
+            <ul>
+              <li><img src="./images/user-3.jpeg" alt="" /></li>
+              <li>lorem ipsim</li>
+            </ul>
+          </div>
+          <div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
+              ea, nemo blanditiis voluptas quae enim earum perferendis autem ut
+              tempora?
+            </p>
+            <ul>
+              <li><img src="./images/user-4.jpeg" alt="" /></li>
+              <li>lorem ipsim</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
     <footer id="main-footer">
       <div class="footer-content container">
         <p>Copyright &copy; 2022.All Rights Reserved.</p>
@@ -105,5 +177,28 @@
         </div>
       </div>
     </footer>
+
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/owl.carousel.js"></script>
+    <script>
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: true,
+        autoplay: true,
+        autoplayTimeout: 3000,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 2,
+          },
+          1000: {
+            items: 3,
+          },
+        },
+      });
+    </script>
   </body>
 </html>
