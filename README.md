@@ -1,3 +1,1 @@
-# Sass_project2
-
-Udemy Sadık Turan hocamızın anlatımıyla yapmış olduğum projeye linkten ulaşabilirsiniz >>>  https://suheyl-yazici.github.io/Sass_project2/
+Projenin canlıya alınmasında hata var daha sonra düzelt. Ayrıca projeni cv'ye ekle
